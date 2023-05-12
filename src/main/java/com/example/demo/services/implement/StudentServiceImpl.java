@@ -28,7 +28,7 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public ServiceResponse<List<Student>> getAllStudents() {
 
-        log.info("operation=getStudent,status=IN_PROGRESS");
+        log.info("operation=getStudent,status=IN_PROGRESS ");
 
         ServiceResponse<List<Student>> serviceResponse = new ServiceResponse<>();
         try {
